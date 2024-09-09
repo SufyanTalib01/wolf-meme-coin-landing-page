@@ -47,6 +47,10 @@ header .right-nav button{
     border-radius: 5px;
     font-weight: bold;
     background-color: transparent;
+    cursor: pointer;;
+}
+.right-nav button:hover{
+    background-color: rgb(222, 222, 222);
 }
 
 /* MAIN DATA  */
@@ -60,5 +64,20 @@ section h1{
     font-size: 112px;
 }
 section p{
-    
+    font-size: 13px;
+    padding-inline: 32%;
+}
+section button{
+    height: 48px;
+    width: 167px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #03FD8F;
+    border: none;
+    border-radius: 10px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+section button:hover{
+    background-color: #06e785;
 }
