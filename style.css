@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    padding-block: 20px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   text-align: center;
+}
+
+/* NAVBAR  */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 60px;
+}
+.left-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-nav ul{
+    display: flex;
+    gap: 30px;
+}
+.center-nav ul li{
+    list-style: none;
+}
+.center-nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+header .right-nav button{
+    height: 37px;
+    width: 108px;
+    border: 2px solid #58FDB4;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+/* MAIN DATA  */
+
+.main-image img{
+    width: 100%;
+}
+
+section h1{
+    font-family: "Lilita One", sans-serif;
+    font-size: 112px;
+}
+section p{
+    
+}
